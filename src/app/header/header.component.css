@@ -1,0 +1,51 @@
+.navbar {
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  /* Container para centralizar o conteúdo */
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Estilizar a marca do navbar */
+  .navbar-brand {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Estilizar o menu */
+  .navbar-menu {
+    display: flex;
+  }
+  
+  /* Estilizar os itens da navegação */
+  .navbar-nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin-left: 1rem;
+  }
+  
+  .nav-link {
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    color: #007bff;
+  }
+  
+  .nav-item.active .nav-link {
+    font-weight: bold;
+    color: #007bff;
+  }
